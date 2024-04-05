@@ -376,6 +376,7 @@ body {
 .container-who{
 
     display: flex;
+    margin: 50px;
 }
 
 .container-who article{
