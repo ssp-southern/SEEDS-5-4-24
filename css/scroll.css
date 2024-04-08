@@ -247,7 +247,7 @@ body {
 
 .centered-image:hover img {
 
-    transform: scale(1.2);
+    transform: scale(1.1);
 
 }
 
@@ -267,7 +267,7 @@ body {
 
 .footer-link:hover {
 
-    font-size: 12px;
+    font-size: 11px;
 
 }
 
@@ -304,6 +304,12 @@ body {
     width: 150px; /* Hace que la imagen no sea más ancha que su contenedor */
 
     height: 150px;
+
+}.image-container img:hover {
+
+    transform: scale(1.1);
+
+    transition: 0.5s ease-out;
 
 }
 
@@ -384,6 +390,14 @@ body {
     padding: 0px 35px;
     text-align: center;
     font-size: 1.2rem;
+
+}
+
+.container-who h1:hover {
+
+    transform: scale(1.05);
+
+    transition: 0.5s ease-out;
 
 }
 
