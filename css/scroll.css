@@ -196,7 +196,7 @@ body {
 }
 
 .fondo-fabrica{
-    background-image: url("/img/fondo_maiz.png");
+    background-image: url("/img/prueba-maiz-tres-v2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -295,9 +295,8 @@ body {
     flex-wrap: wrap;
     }
     .fondo-fabrica{
-    height: 700px;
+    height: auto;
     }
-
 }
 
 @media (max-width: 600px){
